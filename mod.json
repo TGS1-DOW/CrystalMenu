@@ -1,0 +1,16 @@
+
+{
+  "id": "com.geodecoder.ultimatemenu",
+  "name": "Ultimate Dev Menu",
+  "developer": "TGS1GD",
+  "version": "v1.0.0",
+  "description": "A powerful mod menu with noclip, replay bot, monitors, keybinds, and developer tools.",
+  "geode": "v4.6.1",
+  "gd": {
+    "win": "2.2074"
+  },
+  "geode_loader": {
+    "name": "cpp",
+    "version": "v4.6.1"
+  }
+}
