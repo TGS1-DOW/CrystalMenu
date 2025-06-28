@@ -1,3 +1,4 @@
+
 name: Build Geode Mod
 
 on:
@@ -18,7 +19,7 @@ jobs:
 
       - name: Install Geode SDK
         run: |
-          Invoke-WebRequest -Uri https://github.com/geode-sdk/geode/releases/latest/download/geode.exe -OutFile geode.exe
+          Invoke-WebRequest -Uri https://github.com/geode-sdk/geode/releases/download/v4.6.1/geode.exe -OutFile geode.exe
           ./geode.exe init
         shell: pwsh
 
